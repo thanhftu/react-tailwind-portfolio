@@ -4,13 +4,23 @@ import { NavLink } from "react-router-dom";
 function ProjectList() {
   return (
     <div>
-      <ul className="text-white">
+      <ul className="text-black">
         <li>
           <NavLink to="/project1-float-nav-menu">
-            Project 1: Float Nav Menu
+            <div>Project 1: Float Nav Menu</div>
           </NavLink>
         </li>
-        <li>Project 2</li>
+        <li>
+          <NavLink to="/project2-progress-bar">
+            <div>Project 2: Progressive Bar</div>
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/project9-slider-grow">
+            <div>Project 9: Slider to Grow</div>
+          </NavLink>
+        </li>
+
         <li>Project 3</li>
       </ul>
     </div>

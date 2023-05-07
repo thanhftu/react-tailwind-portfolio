@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-white;
+body,
+#root {
+  @apply bg-white h-[100vh] w-[100vw] m-0 p-0;
 }
 
 /* Project 1: Float Nav Menu */
