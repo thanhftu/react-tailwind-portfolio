@@ -20,6 +20,11 @@ function ProjectList() {
             <div>Project 9: Slider to Grow</div>
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/project8-border-animation">
+            <div>Project 8: Border Animation</div>
+          </NavLink>
+        </li>
 
         <li>Project 3</li>
       </ul>

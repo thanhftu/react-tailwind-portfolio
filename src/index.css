@@ -4,7 +4,7 @@
 
 body,
 #root {
-  @apply bg-white h-[100vh] w-[100vw] m-0 p-0;
+  @apply bg-white h-full w-full m-0 p-0;
 }
 
 /* Project 1: Float Nav Menu */
@@ -33,4 +33,47 @@ body,
 }
 .menu-icon {
   @apply cursor-pointer hover:-translate-y-1 hover:scale-110;
+}
+
+.tct-block {
+  position: absolute;
+  margin: 0;
+  width: calc(100% - 7px);
+  height: calc(100% - 7px);
+  background: linear-gradient(0deg, black, rgb(44, 43, 43));
+}
+
+.tct-grow {
+  position: relative;
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    45deg,
+    #6efb04,
+    #ff6600,
+    #00ff66,
+    #00ffff,
+    #ff00ff,
+    #ff0099,
+    #6e0dd0,
+    #ff3300,
+    #099fff
+  );
+  background-size: 400%;
+  animation: tct-background-animation 20s linear infinite;
+}
+@keyframes tct-background-animation {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
