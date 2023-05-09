@@ -77,3 +77,7 @@ body,
     background-position: 0 0;
   }
 }
+
+.tct-button-shadow {
+  box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+}

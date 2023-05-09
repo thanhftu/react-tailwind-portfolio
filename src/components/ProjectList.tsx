@@ -25,8 +25,11 @@ function ProjectList() {
             <div>Project 8: Border Animation</div>
           </NavLink>
         </li>
-
-        <li>Project 3</li>
+        <li>
+          <NavLink to="/project7-calculator">
+            <div>Project 7: Neumorphic Calculator</div>
+          </NavLink>
+        </li>
       </ul>
     </div>
   );
