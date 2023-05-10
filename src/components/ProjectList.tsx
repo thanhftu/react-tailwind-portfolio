@@ -30,6 +30,11 @@ function ProjectList() {
             <div>Project 7: Neumorphic Calculator</div>
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/project10-drop-menu">
+            <div>Project 10: Drop Menu</div>
+          </NavLink>
+        </li>
       </ul>
     </div>
   );

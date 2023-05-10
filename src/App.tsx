@@ -7,6 +7,7 @@ import ProgressBar from "./components/projects/startistics/ProgressBar";
 import SliderToGrow from "./components/projects/09-slider-to-grow/SliderToGrow";
 import BorderAnimation from "./components/projects/08-border-animation/BorderAnimation";
 import Calculator from "./components/projects/07-calculator/Calculator";
+import DropMenu from "./components/projects/10-drop-menu/DropMenu";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           element={<BorderAnimation />}
         />
         <Route path="/project7-calculator" element={<Calculator />} />
+        <Route path="/project10-drop-menu" element={<DropMenu />} />
+
         {/* <Route path="/library" element={<Library />} />
         <Route path="/player" element={<Player />} /> */}
       </Routes>
