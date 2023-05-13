@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import ProjectList from "./components/ProjectList";
@@ -8,6 +7,7 @@ import SliderToGrow from "./components/projects/09-slider-to-grow/SliderToGrow";
 import BorderAnimation from "./components/projects/08-border-animation/BorderAnimation";
 import Calculator from "./components/projects/07-calculator/Calculator";
 import DropMenu from "./components/projects/10-drop-menu/DropMenu";
+import LoginTransparent from "./components/projects/11-form/LoginTransparent";
 
 function App() {
   return (
@@ -23,6 +23,10 @@ function App() {
         />
         <Route path="/project7-calculator" element={<Calculator />} />
         <Route path="/project10-drop-menu" element={<DropMenu />} />
+        <Route
+          path="/project11-login-transparent"
+          element={<LoginTransparent />}
+        />
 
         {/* <Route path="/library" element={<Library />} />
         <Route path="/player" element={<Player />} /> */}

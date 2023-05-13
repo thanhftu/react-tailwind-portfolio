@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 function ProjectList() {
@@ -33,6 +32,11 @@ function ProjectList() {
         <li>
           <NavLink to="/project10-drop-menu">
             <div>Project 10: Drop Menu</div>
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/project11-login-transparent">
+            <div>Project 11:Login transparent</div>
           </NavLink>
         </li>
       </ul>
