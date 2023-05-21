@@ -35,6 +35,11 @@ function ProjectList() {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/project10-2-drop-menu-2">
+            <div>Project 10.1: Drop Menu 2</div>
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/project11-login-transparent">
             <div>Project 11:Login transparent</div>
           </NavLink>

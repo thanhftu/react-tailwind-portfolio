@@ -9,6 +9,7 @@ import Calculator from "./components/projects/07-calculator/Calculator";
 import DropMenu from "./components/projects/10-drop-menu/DropMenu";
 import LoginTransparent from "./components/projects/11-form/LoginTransparent";
 import NeonLightButton from "./components/projects/12-neon-light-button/NeonLightButton";
+import DropMenu2 from "./components/projects/10-drop-menu/DropMenu2";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         />
         <Route path="/project7-calculator" element={<Calculator />} />
         <Route path="/project10-drop-menu" element={<DropMenu />} />
+        <Route path="/project10-2-drop-menu-2" element={<DropMenu2 />} />
         <Route
           path="/project11-login-transparent"
           element={<LoginTransparent />}
