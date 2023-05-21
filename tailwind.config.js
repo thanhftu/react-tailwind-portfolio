@@ -12,9 +12,12 @@ export default {
       animation: {
         "spin-slow": "spin 3s linear infinite",
       },
-      // backgroundColor:{
-      //   'tct-gradient-mix':
-      // }
+      boxShadow: {
+        neon1: "0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3",
+      },
+      backgroundImage: {
+        "neon-1": "linear-gradient(90deg,transparent,#2196f3)",
+      },
     },
   },
   plugins: [],

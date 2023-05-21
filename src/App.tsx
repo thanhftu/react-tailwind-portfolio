@@ -8,6 +8,7 @@ import BorderAnimation from "./components/projects/08-border-animation/BorderAni
 import Calculator from "./components/projects/07-calculator/Calculator";
 import DropMenu from "./components/projects/10-drop-menu/DropMenu";
 import LoginTransparent from "./components/projects/11-form/LoginTransparent";
+import NeonLightButton from "./components/projects/12-neon-light-button/NeonLightButton";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
         <Route
           path="/project11-login-transparent"
           element={<LoginTransparent />}
+        />
+        <Route
+          path="/project12-neon-light-button"
+          element={<NeonLightButton />}
         />
 
         {/* <Route path="/library" element={<Library />} />
